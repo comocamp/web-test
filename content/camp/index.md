@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "What is ComoCamp?"
+title = "What is the ComoCamp?"
 background = "white"
 type = "page"
 text1 = """

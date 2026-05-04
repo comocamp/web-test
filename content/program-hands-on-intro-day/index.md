@@ -1,7 +1,7 @@
 +++
 draft = false
 type = "page"
-title = "Hands-On Intro Day"
+title = "This was the Hands-On Intro Day 2026!"
 background = "follow"
 [[workshops]]
 speaker = "Marco Heimeshoff"
@@ -59,4 +59,4 @@ speaker = "Xin Yao"
 topic = "Who Are We Now: A Conversation on Our Identity Shift in the AI Era"
 +++
 
-Experts will give workshops.
+On the Hands-On Intro Day, some of our most experienced community members will introduce you to three different Collaborative Modeling (Como) methods or topics in a single day. Expect a different line-up and range of topics for 2027, but don't wait for its release. We typically sell out long before we can announce the next intro day program!

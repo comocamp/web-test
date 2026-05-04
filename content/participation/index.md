@@ -7,45 +7,26 @@ Please note that our tickets are non-refundable, but **freely transferable**, in
 """
 background = "alternate"
 
-# [[ tickets ]]
-# title = """
-#     2-Day <br> <strong style=\"text-decoration: underline\">Essential</strong> Ticket
-# """
-# style = ""
-# display = false
-# icon = "postcard"
-# price = 390
-# included = [
-#     "Join the Open Space, May 8<sup>th</sup>-9<sup>th</sup> 2026",
-#     "Bring your own topics, ideas and issues",
-#     "Snacks, lunches and dinners are covered",
-#     "Bonus! Join the intro dinner on May 6<sup>th</sup> 2026, as well as the optional 'Hiking in the Wienerwald' on Saturday May 9<sup>th</sup> 2026"
-# ]
-# bookingText = "Buy now"
-# waitingText = "Join the <br/> waiting list <br/> <strong>for 2026</strong>"
-# bookingLink = ""
-# waitingLink = ""
 [[ tickets ]]
 title = """
-    ComoCamp 2026
+    ComoCamp 2027
 """
 style = "featured"
 display = true
-soldout = true
+soldout = false
 icon = "postcard-heart"
 price = 690
 included = [
-    "Join the Hands-On Intro Day, May 6<sup>th</sup> 2026",
+    "Join the Hands-On Intro Day, May 3<sup>rd</sup> 2027",
     "Some of our most experienced community members introduce you to three different Collaborative Modeling topics",
-    "Join the Open Space, May 7<sup>th</sup>-8<sup>th</sup> 2026",
+    "Join the Open Space, May 4<sup>th</sup>-5<sup>th</sup> 2027",
     "Bring your own topics, ideas and issues",
     "Snacks, lunches and dinners are covered",
-    "Bonus! Join the optional 'Hiking Day' on Saturday May 9<sup>th</sup> 2026" 
+    "Bonus! Join the optional 'Hiking Day' on Ascension Day May 6<sup>th</sup> 2027" 
 ]
 bookingText = "Buy Now"
-waitingText = "Join the waiting list for 2027"
-# bookingLink = "https://ti.to/collaborate-vienna/comocamp-2026/with/hj-7herf9nw"
-bookingLink = "https://ti.to/collaborate-vienna/comocamp-2026?source=website"
+bookingLink = "https://ti.to/collaborate-vienna/comocamp-2027/with/9dwgwjmgnmg"
+waitingText = "Join the waiting list"
 waitingLink = "https://ti.to/collaborate-vienna/comocamp-2026?source=waitinglist"
 [[ tickets ]]
 title = """
@@ -59,7 +40,7 @@ soldout = false
 price = 104
 included = [
     "Please always use our contingent <strong>\"ComoCamp\"</strong>",
- #   "Contingent available until <span style=\"text-decoration: underline\">March 5th, 2026</span>, rooms as such maybe longer!",
+ #   "Contingent available until <span style=\"text-decoration: underline\">March 3rd, 2027</span>, rooms as such maybe longer!",
     "Breakfast typically included",
     "Parking lot tickets at the reception"
 ]

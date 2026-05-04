@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "We're looking forward to seeing you at ComoCamp 2026!"
+title = "We're looking forward to seeing you at ComoCamp 2027!"
 background = "alternate"
 type = "page"
 +++

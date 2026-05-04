@@ -4,9 +4,9 @@ type = "page"
 title = "Our Program"
 background = "alternate"
 [[days]]
-id = 0
+id = 1
 name = "Hands-On Intro Day"
-date = 2026-05-06
+date = 2027-05-03
 [[days.activities]]
 name = "Arrival & Check-In"
 from = "08:30"
@@ -18,14 +18,14 @@ from = "09:15"
 to = "18:45"
 description = "Some of our most experienced community members will introduce you to three different Collaborative Modeling (Como) methods in a single day."
 [[days.activities]]
-name = "Dinner"
+name = "Intro Day Dinner"
 from = "19:30"
 to = "23:00"
 description = "After an intensive intro day, you are invited to have dinner in the bistro. Maybe you already meet the first people arriving for the open space only? Yes, they are invited, too! :)"
 [[days]]
-id = 1
+id = 2
 name = "Open Space Day 1"
-date = 2026-05-07
+date = 2027-05-04
 [[days.activities]]
 name = "Arrival & Check-In"
 from = "08:30"
@@ -37,14 +37,14 @@ from = "09:15"
 to = "17:15"
 description = "The first day of the Open Space always starts with a marketplace. What will happen this time? It totally depends on YOU. Please [bring your own questions, ideas and issues](#call-to-action) to the camp!"
 [[days.activities]]
-name = "Dinner"
+name = "Open Space Dinner"
 from = "19:00"
 to = "23:00"
-description = "After the first unconference day and a little break to check in and refresh you meet for a nice dinner in the so called \"Orangerie\", a particularly nice place in the hotel's park."
+description = "After the first unconference day and a little break to check in and refresh you meet for a nice dinner in the so called \"Orangerie\", a particularly nice place in the hotel's park. In parallel, the busy bees still continue with sessions!"
 [[days]]
-id = 2
+id = 3
 name = "Open Space Day 2"
-date = 2026-05-08
+date = 2027-05-05
 [[days.activities]]
 name = "Arrival & Check-In"
 from = "08:30"
@@ -61,14 +61,14 @@ from = "18:00"
 to = "23:00"
 description = "After the unconference finale, you have a relaxed dinner in the bistro restaurant close to the first park entrance, where all the breakfasts and lunches took place, too."
 [[days]]
-id = 3
+id = 4
 name = "Hiking Day"
-date = 2026-05-09
+date = 2027-05-06
 [[days.activities]]
 name = "Hiking in the Wienerwald"
 from = "10:00"
 to = "13:00"
-description = "On **Saturday**, you meet the ComoCamp organizers and go on a little tour (max 3 hours max 300m altitude): with a little bit of weather luck leading us to a nice view over Vienna."
+description = "On **Thursday (Ascension Day in Austria)**, you meet the ComoCamp organizers and go on a little tour (max 3 hours max 300m altitude): with a little bit of weather luck leading us to a nice view over Vienna."
 [[days.activities]]
 name = "Pizza with La Mama"
 from = "13:00"
