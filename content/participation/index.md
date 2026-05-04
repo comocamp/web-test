@@ -37,7 +37,7 @@ style = "hotel"
 icon = "house"
 display = true
 soldout = false
-price = 104
+price = 107
 included = [
     "Please always use our contingent <strong>\"ComoCamp\"</strong>",
  #   "Contingent available until <span style=\"text-decoration: underline\">March 3rd, 2027</span>, rooms as such maybe longer!",

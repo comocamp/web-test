@@ -9,10 +9,10 @@ conference = """
 """
 locationAndDate = """
     <span style="font-weight: normal">Vienna</span><br/>
-    <span>May 3<sup>th</sup>-6<sup>th</sup>, 2027</span> 
+    <span>May 3<sup>rd</sup>-6<sup>th</sup>, 2027</span> 
 """
 button = "Yes! I want to participate!"
 lastCamp = """
-   <a href="/2025" class="stretched-link">Remember the camp? :) Check out our pics <span style="text-decoration: underline">2025</span>!</a>    
+   <a href="/2026" class="stretched-link">Remember the camp? :) Check out our pics <span style="text-decoration: underline">2026</span>!</a>    
 """
 +++
