@@ -2,7 +2,6 @@
 <section class='program-hands-on-intro-day {{ $.Params.background }} {{ printf "%s" ((partial "background.html" .) | replaceRE "\\s+" "") }}'>
     <a class="anchor" id="program-hands-on-intro-day"></a>
     <div class="container" data-aos="fade-up">
-
         <div class="section-header pb-3">
             <h2>{{ .Title }}</h2>
             <p>{{ .Content }}</p>
@@ -10,10 +9,21 @@
         <div class="container py-9 py-lg-11 position-relative z-index-1">
             <div class="row" data-aos="fade-up">
                 {{ range .Params.workshops }}
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="p-4 h-100 border rounded">
-                        <h4 class="mb-1">{{ if .topic }}{{ .topic }}{{ else }}{{ .speaker }}{{ end }}</h4>
-                        {{ if .topic }}<p class="text-muted mb-0">{{ .speaker }}</p>{{ end }}
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="p-4 h-100 border rounded w-100">
+                        <h4 class="mb-3">{{ if .topic }}{{ .topic }}{{ else }}{{ .speaker }}{{ end }}</h4>
+                        {{ if .topic }}
+                        <div class="d-flex align-items-center gap-2">
+                            {{ range .images }}
+                            {{ $image := $.Resources.Get . }}
+                            {{ if $image }}
+                            {{ $image = $image.Process "resize 80x80" }}
+                            <img src="{{ $image.RelPermalink }}" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;">
+                            {{ end }}
+                            {{ end }}
+                            <span class="text-muted">{{ .speaker }}</span>
+                        </div>
+                        {{ end }}
                     </div>
                 </div>
                 {{ end }}
