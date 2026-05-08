@@ -36,19 +36,30 @@ name = "Gottfried Szing"
 image = "gottfried-szing.png"
 linkedin = "https://www.linkedin.com/in/gottfriedszing/"
 [[helpingHand]]
-name = "Fabian Schmied"
-image = "fabian-schmied.png"
-linkedin = "https://www.linkedin.com/in/fabian-schmied-3236511/"
-[[helpingHand]]
 name = "Angela Rumpl"
 image = "angela-rumpl.png"
 linkedin = "https://www.linkedin.com/in/angelarumpl/"
 [[helpingHand]]
-name = "Andreas Melcher"
-image = "andreas-melcher.png"
-linkedin = "https://www.linkedin.com/in/andymel/"
+name = "Fabian Schmied"
+image = "fabian-schmied.png"
+linkedin = "https://www.linkedin.com/in/fabian-schmied-3236511/"
 [[helpingHand]]
-name = "Milena Krnjic"
-image = "milena-krnjic.png"
-linkedin = "https://www.linkedin.com/in/milena-krnjic-426312190/"
+name = "Johanna Stückler"
+image = "johanna-stueckler.jpg"
+linkedin = "https://www.linkedin.com/in/johanna-stueckler/"
+[[helpingHand]]
+name = "Fabia Schimak"
+image = "fabia-schimak.jpg"
+[[helpingHand]]
+name = "Oleksandr Kosenkov"
+image = "alex-avatar.png"
+linkedin = "https://www.linkedin.com/in/oleksandr-kosenkov/"
+[[helpingHand]]
+name = "Tobias Brennecke"
+image = "tobias-brennecke.jpg"
+linkedin = "https://www.linkedin.com/in/tobias-brennecke/"
+[[helpingHand]]
+name = "Pascal Brennecke"
+image = "pascal-brennecke.jpg"
+linkedin = "https://www.linkedin.com/in/pascal-brennecke-experte-f%C3%BCr-schnellere-webseiten-4b32ba13b/"
 +++
