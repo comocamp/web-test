@@ -9,8 +9,8 @@
         <div class="container py-9 py-lg-11 position-relative z-index-1">
             <div class="row" data-aos="fade-up">
                 {{ range .Params.workshops }}
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <div class="p-4 h-100 border rounded w-100">
+                <div class="col-12 col-md-6 col-lg-4 d-flex mb-4">
+                    <div class="p-4 h-100 border rounded w-100"  style="background-color: white;">
                         <h4 class="mb-3">{{ if .topic }}{{ .topic }}{{ else }}{{ .speaker }}{{ end }}</h4>
                         {{ if .topic }}
                         <div class="d-flex align-items-center gap-2">
