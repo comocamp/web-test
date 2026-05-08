@@ -1,0 +1,33 @@
+{{ if not .Params.hide }}
+<section class='program-open-space-day-1 {{ $.Params.background }} {{ printf "%s" ((partial "background.html" .) | replaceRE "\\s+" "") }}'>
+    <a class="anchor" id="program-open-space-day-1"></a>
+    <div class="container" data-aos="fade-up">
+        <div class="section-header pb-0">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Content }}</p>
+        </div>
+        <div class="mt-5 m-3">
+            <h2>Open Space Day 1</h2>
+        </div>
+        <div class="container py-9 py-lg-11 position-relative z-index-1">
+            <div class="row" data-aos="fade-up">
+                {{ $image := .Resources.Get "timetable-open-space-day-1.jpg" }}
+                {{ if $image }}
+                <img src="{{ $image.RelPermalink }}" alt="Timetable Open Space Day 1" class="img-fluid">
+                {{ end }}
+            </div>
+        </div>
+        <div class="mt-5 m-3">
+            <h2>Open Space Day 2</h2>
+        </div>
+        <div class="container py-9 py-lg-11 position-relative z-index-1">
+            <div class="row" data-aos="fade-up">
+                {{ $image := .Resources.Get "timetable-open-space-day-1.jpg" }}
+                {{ if $image }}
+                <img src="{{ $image.RelPermalink }}" alt="Timetable Open Space Day 1" class="img-fluid">
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
