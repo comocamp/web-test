@@ -11,39 +11,31 @@ extensions = [
 
 [menu]
 [[menu.main]]
-  name = 'What is the ComoCamp About?'
+  name = 'What is the ComoCamp?'
   pageRef = 'como'
   weight = 1
-#[[menu.main]]
-#  name = 'ComoCamp'
-#  pageRef = 'camp'
-#  weight = 2
-#[[menu.main]]
-#  name = 'Community'
-#  pageRef = 'community'
-#  weight = 3
 [[menu.main]]
-  name = 'Location'
+  name = 'Our Location'
   pageRef = 'location'
   weight = 4
 [[menu.main]]
-  name = 'Program'
+  name = 'Our Program'
   pageRef = 'program'
   weight = 5
-#[[menu.main]]
-#  name = 'Sponsors'
-#  pageRef = 'supporters'
-#  weight = 6
-#[[menu.main]]
-#  name = 'Team'
-#  pageRef = 'team'
-#  weight = 7
 [[menu.main]]
-  name = 'Tickets'
+  name = 'Our Sponsors'
+  pageRef = 'supporters'
+  weight = 6
+[[menu.main]]
+name = 'This was our camp 2026!'
+pageRef = 'program-hands-on-intro-day'
+weight = 7
+[[menu.main]]
+  name = 'Tickets 2027'
   pageRef = 'participation'
   weight = 8
 
 [Params]
 	DateForm = "2006-01-02"
   SaveTheDate = false
-  Sections = ["hero", "como", "camp", "community", "bring-your-topics", "location", "program", "program-hands-on-intro-day", "program-open-space-day-1", "participation", "faqs", "supporters", "supporters-2", "media-partners", "team", "we-are-looking-forward"]
+  Sections = ["hero", "como", "camp", "community", "bring-your-topics", "location", "program", "program-hands-on-intro-day", "program-open-space", "participation", "faqs", "supporters", "supporters-2", "media-partners", "team", "we-are-looking-forward"]
